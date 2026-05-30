@@ -1,0 +1,14 @@
+### Get available vehicles
+GET http://localhost:4004/odata/v4/logistics/Vehicles?$filter=status eq 'Available'
+
+### Get shipments in transit
+GET http://localhost:4004/odata/v4/logistics/Shipments?$filter=status eq 'InTransit'
+
+### Get shipments for a customer
+GET http://localhost:4004/odata/v4/logistics/Shipments?$filter=customerId eq 'c1'
+
+### Get routes between cities
+GET http://localhost:4004/odata/v4/logistics/Routes?$filter=fromCity eq 'Bangalore' and toCity eq 'Chennai'
+
+### Get drivers sorted by rating
+GET http://localhost:4004/odata/v4/logistics/Drivers?$orderby=rating desc

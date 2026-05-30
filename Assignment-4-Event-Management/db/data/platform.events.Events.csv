@@ -1,0 +1,5 @@
+ID,title,description,eventType,venueId,startDate,endDate,startTime,endTime,maxAttendees,registeredCount,ticketPrice,status,organizerName,organizerEmail,tags
+e1,SAP CAP Workshop,Learn SAP CAP,Workshop,v1,2026-06-10,2026-06-10,09:00:00,17:00:00,200,150,1500,Published,Manoj Kumar,manoj@eventhub.com,SAP,CAP
+e2,AI Conference,Future of AI,Conference,v2,2026-07-15,2026-07-16,10:00:00,18:00:00,300,250,3000,Published,Ravi Patel,ravi@eventhub.com,AI,ML
+e3,Cloud Seminar,Cloud Technologies,Seminar,v2,2026-08-20,2026-08-20,09:00:00,13:00:00,150,80,1000,Draft,Pooja Sharma,pooja@eventhub.com,Cloud,AWS
+e4,Web Development Meetup,Modern Web Apps,Meetup,v3,2026-09-05,2026-09-05,14:00:00,18:00:00,100,40,500,Published,Kiran Rao,kiran@eventhub.com,Web,JavaScript

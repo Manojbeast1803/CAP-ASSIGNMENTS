@@ -1,0 +1,17 @@
+### Get all doctors
+GET http://localhost:4004/odata/v4/hospital/Doctors
+
+### Get Cardiology doctors
+GET http://localhost:4004/odata/v4/hospital/Doctors?$filter=specialization eq 'Cardiology'
+
+### Get Patients
+GET http://localhost:4004/odata/v4/hospital/Patients
+
+### Get Departments
+GET http://localhost:4004/odata/v4/hospital/Departments
+
+### Get Appointments
+GET http://localhost:4004/odata/v4/hospital/Appointments
+
+### Get Medical Records
+GET http://localhost:4004/odata/v4/hospital/MedicalRecords 

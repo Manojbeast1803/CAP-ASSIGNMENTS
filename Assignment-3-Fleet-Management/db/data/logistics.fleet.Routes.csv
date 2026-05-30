@@ -1,0 +1,6 @@
+ID,fromCity,toCity,distance,estimatedHours,tollCharges,isActive
+r1,Bangalore,Chennai,350,6,1200,true
+r2,Chennai,Pune,700,12,2500,true
+r3,Pune,Hyderabad,550,9,1800,true
+r4,Hyderabad,Bangalore,600,10,2000,true
+r5,Bangalore,Pune,850,14,3000,true

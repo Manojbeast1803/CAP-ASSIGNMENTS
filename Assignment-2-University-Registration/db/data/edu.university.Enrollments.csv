@@ -1,0 +1,13 @@
+studentId,courseCode,enrollmentDate,status,grade,gradePoints,attendancePercent
+s1,CS101,2024-01-10,Enrolled,A,10,95
+s2,CS101,2024-01-10,Enrolled,B,8,88
+s3,EC101,2024-01-10,Enrolled,A,10,92
+s4,EC101,2024-01-10,Enrolled,C,6,75
+s5,MBA101,2024-01-10,Enrolled,A,10,90
+s6,MBA101,2024-01-10,Enrolled,B,8,85
+s7,CS201,2024-01-10,Enrolled,A,10,97
+s8,EC201,2024-01-10,Enrolled,B,8,89
+s1,CS201,2024-06-15,Enrolled,A,10,96
+s2,CS201,2024-06-15,Enrolled,B,8,87
+s3,EC201,2024-06-15,Enrolled,A,10,93
+s5,MBA201,2024-06-15,Enrolled,A,10,91

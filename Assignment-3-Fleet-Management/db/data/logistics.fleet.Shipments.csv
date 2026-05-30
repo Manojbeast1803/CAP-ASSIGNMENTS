@@ -1,0 +1,9 @@
+ID,trackingNumber,customerId,driverId,vehicleId,pickupAddress,deliveryAddress,pickupCity,deliveryCity,weight,status,bookedAt,pickedUpAt,deliveredAt,estimatedDelivery,actualDistance,charges,paymentStatus
+s1,SL-2026-00001,c1,d1,v1,MG Road,T Nagar,Bangalore,Chennai,500,InTransit,2026-01-01,2026-01-02,,2026-01-05,350,12000,Paid
+s2,SL-2026-00002,c2,d2,v2,Anna Salai,FC Road,Chennai,Pune,200,Delivered,2026-01-03,2026-01-04,2026-01-06,2026-01-06,700,18000,Paid
+s3,SL-2026-00003,c3,d3,v3,FC Road,Banjara Hills,Pune,Hyderabad,50,Booked,2026-01-05,,,,550,5000,Pending
+s4,SL-2026-00004,c4,d1,v1,Banjara Hills,MG Road,Hyderabad,Bangalore,800,InTransit,2026-01-06,2026-01-07,,2026-01-10,600,22000,COD
+s5,SL-2026-00005,c1,d2,v2,MG Road,FC Road,Bangalore,Pune,300,PickedUp,2026-01-07,2026-01-08,,2026-01-12,800,15000,Pending
+s6,SL-2026-00006,c2,d3,v3,Anna Salai,Banjara Hills,Chennai,Hyderabad,100,Delivered,2026-01-08,2026-01-09,2026-01-11,2026-01-11,650,11000,Paid
+s7,SL-2026-00007,c3,d1,v1,FC Road,MG Road,Pune,Bangalore,400,Booked,2026-01-09,,,,850,17000,Pending
+s8,SL-2026-00008,c4,d2,v2,Banjara Hills,Anna Salai,Hyderabad,Chennai,250,OutForDelivery,2026-01-10,2026-01-11,,2026-01-14,700,14000,COD

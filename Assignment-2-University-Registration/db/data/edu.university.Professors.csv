@@ -1,0 +1,6 @@
+ID,firstName,lastName,email,phone,departmentCode,designation,joinDate,salary,officeRoom
+p1,Rajesh,Sharma,rajesh@techuni.com,9876543210,CSE,Full,2015-01-10,120000,A101
+p2,Priya,Reddy,priya@techuni.com,9876543211,ECE,Associate,2017-03-15,100000,B201
+p3,Amit,Kumar,amit@techuni.com,9876543212,MBA,Distinguished,2012-06-20,150000,C301
+p4,Sneha,Patel,sneha@techuni.com,9876543213,CSE,Assistant,2020-02-12,A102
+p5,Vikram,Singh,vikram@techuni.com,9876543214,ECE,Assistant,2021-08-01,B202

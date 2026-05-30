@@ -1,0 +1,5 @@
+ID,name,licenseNumber,licenseExpiry,phone,email,experience,rating,status,vehicleId,joinDate
+d1,Ramesh Kumar,DL12345,2028-12-31,9876543210,ramesh@speedlogistics.com,8,4.8,Available,v1,2020-01-15
+d2,Suresh Patel,DL23456,2027-11-30,9876543211,suresh@speedlogistics.com,6,4.5,OnTrip,v2,2021-03-10
+d3,Anil Sharma,DL34567,2029-05-20,9876543212,anil@speedlogistics.com,10,4.9,Available,v3,2019-06-25
+d4,Vikram Rao,DL45678,2028-08-15,9876543213,vikram@speedlogistics.com,5,4.3,OnLeave,v4,2022-07-12

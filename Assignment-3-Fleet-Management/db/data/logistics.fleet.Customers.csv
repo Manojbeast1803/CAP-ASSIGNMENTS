@@ -1,0 +1,5 @@
+ID,name,company,phone,email,address,city,pincode,gstNumber,tier
+c1,Manoj Kumar,ABC Pvt Ltd,8881111111,manoj@abc.com,MG Road,Bangalore,560001,GST12345,Premium
+c2,Ravi Patel,XYZ Industries,8882222222,ravi@xyz.com,Anna Salai,Chennai,600001,GST23456,Regular
+c3,Pooja Sharma,TechSoft,8883333333,pooja@techsoft.com,FC Road,Pune,411001,GST34567,Enterprise
+c4,Neha Verma,Global Traders,8884444444,neha@global.com,Banjara Hills,Hyderabad,500001,GST45678,Premium

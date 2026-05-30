@@ -1,0 +1,6 @@
+ID,registrationNumber,type,make,model,year,capacity,fuelType,status,lastServiceDate,mileage,insuranceExpiry
+v1,KA01AB1234,Truck,Tata,Signa,2022,15000,Diesel,Available,2025-01-10,45000,2027-01-10
+v2,KA02CD5678,Van,Ashok Leyland,Dost,2021,5000,Diesel,OnTrip,2025-02-15,38000,2026-12-31
+v3,KA03EF9012,Bike,Hero,Splendor,2023,100,Petrol,Available,2025-03-20,12000,2028-03-20
+v4,KA04GH3456,Truck,Mahindra,Blazo,2020,18000,Diesel,Maintenance,2025-04-01,70000,2026-11-15
+v5,KA05IJ7890,Van,Tata,Winger,2022,6000,CNG,Available,2025-02-28,25000,2027-02-28

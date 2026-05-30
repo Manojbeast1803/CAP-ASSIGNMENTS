@@ -1,0 +1,7 @@
+eventId,speakerId,topic,sessionTime,sessionDuration,roomNumber
+e1,s1,SAP CAP Basics,10:00:00,60,A101
+e1,s4,Fiori Applications,11:30:00,45,A102
+e2,s2,Future of AI,10:30:00,90,B201
+e2,s5,Data Analytics Trends,14:00:00,60,B202
+e3,s3,Cloud Migration,10:00:00,60,C101
+e4,s4,Modern JavaScript,15:00:00,60,D101

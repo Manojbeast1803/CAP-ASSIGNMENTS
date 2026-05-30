@@ -1,0 +1,4 @@
+ID,eventId,attendeeEmail,overallRating,contentRating,venueRating,speakerRating,comment,submittedAt
+f1,e1,manoj@gmail.com,5,5,4,5,Excellent workshop,2026-06-11T10:00:00Z
+f2,e2,ravi@gmail.com,4,5,4,4,Very informative,2026-07-17T12:00:00Z
+f3,e4,anita@gmail.com,5,5,5,5,Great event,2026-09-06T09:00:00Z

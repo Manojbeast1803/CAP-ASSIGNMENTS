@@ -1,0 +1,6 @@
+ID,name,email,phone,bio,company,designation,expertise,photoUrl,rating,totalTalks,isActive
+s1,John Smith,john@tech.com,8881111111,SAP Expert,SAP,Architect,SAP CAP,https://speaker1.com,4.8,50,true
+s2,Sarah Lee,sarah@ai.com,8882222222,AI Researcher,OpenAI,Scientist,Artificial Intelligence,https://speaker2.com,4.9,70,true
+s3,David Kumar,david@cloud.com,8883333333,Cloud Specialist,AWS,Consultant,Cloud Computing,https://speaker3.com,4.6,40,true
+s4,Anita Joshi,anita@web.com,8884444444,Frontend Expert,Google,Engineer,JavaScript,https://speaker4.com,4.7,45,true
+s5,Rahul Verma,rahul@data.com,8885555555,Data Scientist,Microsoft,Lead,Data Analytics,https://speaker5.com,4.5,35,true

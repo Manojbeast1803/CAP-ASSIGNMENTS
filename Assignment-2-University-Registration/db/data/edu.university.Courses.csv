@@ -1,0 +1,7 @@
+code,title,description,credits,maxStudents,currentEnrolled,semester,departmentCode,professorId,schedule,roomNumber,isActive
+CS101,Programming Fundamentals,Basics of Programming,4,60,45,1,CSE,p1,MWF 10:00-11:00,A201,true
+CS201,Data Structures,Advanced Data Structures,4,50,35,3,CSE,p4,TTS 09:00-10:00,A202,true
+EC101,Circuit Theory,Electrical Circuits,4,60,50,1,ECE,p2,MWF 11:00-12:00,B101,true
+EC201,Digital Electronics,Logic Design,4,50,30,3,ECE,p5,TTS 10:00-11:00,B102,true
+MBA101,Management Basics,Introduction to Management,3,80,60,1,MBA,p3,MWF 02:00-03:00,C101,true
+MBA201,Marketing,Marketing Concepts,3,70,40,3,MBA,p3,TTS 01:00-02:00,C102,true

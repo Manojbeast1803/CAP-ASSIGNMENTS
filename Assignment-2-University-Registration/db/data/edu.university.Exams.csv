@@ -1,0 +1,7 @@
+ID,courseCode,examType,date,maxMarks,weightagePercent
+e1,CS101,Midterm,2024-03-15,50,30
+e2,CS101,Final,2024-05-20,100,50
+e3,EC101,Midterm,2024-03-18,50,30
+e4,EC101,Final,2024-05-22,100,50
+e5,MBA101,Assignment,2024-02-10,20,20
+e6,CS201,Quiz,2024-07-10,25,10
