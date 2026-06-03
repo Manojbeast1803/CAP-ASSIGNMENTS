@@ -1,0 +1,56 @@
+### 1. Get All Suppliers
+GET http://localhost:4004/admin/Suppliers
+
+### 2. Get All Categories
+GET http://localhost:4004/admin/Categories
+
+### 3. Get Products with Supplier and Category
+GET http://localhost:4004/admin/Products?$expand=supplier,category
+
+### 4. Get Customers
+GET http://localhost:4004/admin/Customers
+
+### 5. Get Sales Orders with Items
+GET http://localhost:4004/admin/SalesOrders?$expand=items
+
+### 6. Filter Products by Price
+GET http://localhost:4004/admin/Products?$filter=price gt 100
+
+### 7. Sort Products by Price Descending
+GET http://localhost:4004/admin/Products?$orderby=price desc
+
+### 8. Product Catalog Report
+GET http://localhost:4004/report/ProductCatalog
+
+### 9. Order Report
+GET http://localhost:4004/report/OrderReport
+
+### 10. Low Stock Alert Report
+GET http://localhost:4004/report/LowStockAlert
+
+### 11. Purchase Orders with Items
+GET http://localhost:4004/admin/PurchaseOrders?$expand=items
+
+### 12. Deep Insert Sales Order
+POST http://localhost:4004/admin/SalesOrders
+Content-Type: application/json
+
+{
+  "orderNumber": "SO1001",
+  "orderDate": "2026-06-03",
+  "totalAmount": 5000,
+  "currency": "USD",
+  "status": "NEW",
+  "items": [
+    {
+      "quantity": 2,
+      "unitPrice": 1000,
+      "netAmount": 2000
+    },
+    {
+      "quantity": 3,
+      "unitPrice": 1000,
+      "netAmount": 3000
+    }
+  ]
+}
