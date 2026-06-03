@@ -68,6 +68,31 @@ entity SalesOrderItems : cuid {
     unitPrice  : Decimal(10,2);
     netAmount  : Decimal(12,2);
 }
+view ProductCatalog as select from Products {
+    key ID,
+    name,
+    price,
+    supplier.name as supplierName,
+    category.name as categoryName
+};
+view OrderReport as select from SalesOrders {
+    key ID,
+    orderNumber,
+    customer.name as customerName,
+    totalAmount,
+    orderDate,
+    status
+};
+view LowStockAlert as select from Products {
+    key ID,
+    name,
+    stock,
+    minStock,
+    supplier.name as supplierName,
+    supplier.contact as supplierContact,
+    supplier.phone as supplierPhone
+}
+where stock <= minStock;
 
 entity PurchaseOrders : cuid, managed {
     poNumber    : String(30);
@@ -79,8 +104,8 @@ entity PurchaseOrders : cuid, managed {
     currency    : Currency;
     status      : String(20);
 
-    items       : Composition of many PurchaseOrderItems
-                  on items.order = $self;
+    items : Composition of many PurchaseOrderItems
+            on items.order = $self;
 }
 
 entity PurchaseOrderItems : cuid {
@@ -89,36 +114,4 @@ entity PurchaseOrderItems : cuid {
 
     quantity   : Integer;
     unitPrice  : Decimal(10,2);
-}  
-
-view ProductCatalog as select from Products {
-    name,
-    price,
-    supplier.name as supplierName,
-    category.name as categoryName,
-
-    case
-        when stock <= minStock
-        then 'LOW'
-        else 'OK'
-    end as stockStatus
-};
-
-view OrderReport as select from SalesOrders {
-    orderNumber,
-    customer.name as customerName,
-    totalAmount,
-    orderDate,
-    status
-};
-
-view LowStockAlert as select from Products {
-    name,
-    stock,
-    minStock,
-
-    supplier.name    as supplierName,
-    supplier.contact as supplierContact,
-    supplier.phone   as supplierPhone
 }
-where stock <= minStock;
