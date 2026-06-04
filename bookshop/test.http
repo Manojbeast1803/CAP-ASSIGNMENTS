@@ -1,0 +1,92 @@
+### Service Root
+GET http://localhost:4004
+Accept: application/json
+
+###
+
+### Get All Books
+GET http://localhost:4004/catalog/Books
+Accept: application/json
+
+###
+
+### Get All Authors
+GET http://localhost:4004/catalog/Authors
+Accept: application/json
+
+###
+
+### Get All Reviews
+GET http://localhost:4004/catalog/Reviews
+Accept: application/json
+
+###
+
+### Books with Author Details
+GET http://localhost:4004/catalog/Books?$expand=author
+Accept: application/json
+
+###
+
+### Authors with Books
+GET http://localhost:4004/catalog/Authors?$expand=books
+Accept: application/json
+
+###
+
+### Filter Books by Genre
+GET http://localhost:4004/catalog/Books?$filter=genre eq 'Fantasy'
+Accept: application/json
+
+###
+
+### Sort Books by Price Descending
+GET http://localhost:4004/catalog/Books?$orderby=price desc
+Accept: application/json
+
+###
+
+### Top 3 Books
+GET http://localhost:4004/catalog/Books?$top=3
+Accept: application/json
+
+###
+
+### Metadata
+GET http://localhost:4004/catalog/$metadata
+
+###
+
+### Admin - Get Books
+GET http://localhost:4004/admin/Books
+Accept: application/json
+
+###
+
+### Admin - Get Authors
+GET http://localhost:4004/admin/Authors
+Accept: application/json
+
+###
+
+### Create New Author
+POST http://localhost:4004/admin/Authors
+Content-Type: application/json
+
+{
+    "name": "Dan Brown",
+    "country": "USA",
+    "email": "dan@example.com"
+}
+
+###
+
+### Create New Review
+POST http://localhost:4004/catalog/Reviews
+Content-Type: application/json
+
+{
+    "reviewer": "Manoj",
+    "rating": 5,
+    "comment": "Excellent Book"
+}
