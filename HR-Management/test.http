@@ -1,0 +1,27 @@
+### Get Departments
+GET http://localhost:4004/odata/v4/hr/Departments
+
+###
+
+### Get Employees
+GET http://localhost:4004/odata/v4/hr/Employees
+
+###
+
+### Get Projects
+GET http://localhost:4004/odata/v4/hr/Projects
+
+###
+
+### Get Skills
+GET http://localhost:4004/odata/v4/hr/Skills
+
+###
+
+### Get Assignments
+GET http://localhost:4004/odata/v4/hr/Assignments
+
+###
+
+### Get EmployeeSkills
+GET http://localhost:4004/odata/v4/hr/EmployeeSkills
